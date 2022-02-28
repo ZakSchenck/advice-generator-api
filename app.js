@@ -12,7 +12,7 @@ function getAdvice() {
         return response.json();
     }).then(function (data) {
         let id = data.slip.id
-        advice.innerText = data.slip.advice
+        advice.innerText = `"${data.slip.advice}"`
         adviceIdText.innerText = `ADVICE #${id}`
     })
 }

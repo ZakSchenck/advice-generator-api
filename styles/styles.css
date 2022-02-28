@@ -19,7 +19,7 @@ section {
   border-radius: 10px;
   background-color: #323a49;
   max-width: 540px;
-  min-height: 240px;
+  min-height: 300px;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
@@ -37,7 +37,7 @@ section p {
 }
 
 section h1 {
-  font-size: 22px;
+  font-size: 25px;
   margin-top: -25px;
   color: #cee3e9;
 }
