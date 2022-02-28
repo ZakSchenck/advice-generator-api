@@ -19,7 +19,7 @@ section {
   border-radius: 10px;
   background-color: #323a49;
   max-width: 540px;
-  min-height: 300px;
+  min-height: 340px;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
@@ -66,12 +66,6 @@ section div:hover {
 
 section div img {
   margin-top: 18px;
-}
-
-@media all and (max-width: 450px) {
-  section {
-    min-height: 300px;
-  }
 }
 
 @media all and (max-width: 320px) {

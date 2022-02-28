@@ -18,7 +18,7 @@ section {
     border-radius: 10px;
     background-color: $darkGrayishBlue;
     max-width: 540px;
-    min-height: 300px;
+    min-height: 340px;
     justify-content: space-evenly;
     position: relative;
     margin-left: auto;
@@ -55,12 +55,6 @@ section {
         img {
             margin-top: 18px;
         }
-    }
-}
-
-@media all and (max-width: 450px) {
-    section {
-        min-height: 300px;
     }
 }
 
