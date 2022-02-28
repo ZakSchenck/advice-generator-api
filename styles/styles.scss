@@ -1,0 +1,72 @@
+$mainGreen: hsl(150, 100%, 66%);
+$lightCyan: hsl(193, 38%, 86%);
+$grayishBlue: hsl(193, 38%, 86%);
+$darkBlue: hsl(218, 23%, 16%);
+$darkGrayishBlue: hsl(217, 19%, 24%);
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: $darkBlue;
+    margin: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    background-color: $darkGrayishBlue;
+    max-width: 540px;
+    min-height: 240px;
+    justify-content: space-evenly;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    p {
+        margin-top: -25px;
+        color: $mainGreen;
+        letter-spacing: 4px;
+        font-size: 12px;
+    }
+    h1 {
+        font-size: 22px;
+        margin-top: -25px;
+        color: $grayishBlue;
+    }
+    #divider {
+        width: 85%;
+        margin-top: -25px;
+    }
+    div {
+        height: 60px;
+        width: 60px;
+        position: absolute;
+        background-color: $mainGreen;
+        border-radius: 50%;
+        bottom: -30px;
+        &:hover {
+            cursor: pointer;
+            box-shadow: 0 0 20px $mainGreen;
+        }
+        img {
+            margin-top: 18px;
+        }
+    }
+}
+
+@media all and (max-width: 450px) {
+    section {
+        min-height: 300px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    section h1 {
+        font-size: 19px;
+    }
+   #divider {
+        width: 90%;
+    }
+}
